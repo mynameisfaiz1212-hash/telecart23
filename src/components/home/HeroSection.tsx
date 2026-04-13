@@ -47,7 +47,7 @@ export default function HeroSection() {
 
   return (
     <section id="hero" className="relative py-20 md:py-28 overflow-hidden bg-gradient-to-br from-primary/5 via-background to-accent/5">
-      <div className="container mx-auto px-4 text-center relative z-10">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12 text-center relative z-10">
         
         {/* MAIN HEADING */}
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold mb-4 text-foreground leading-tight">

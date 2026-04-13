@@ -54,7 +54,7 @@ export default function Ads2ColSection() {
 
   return (
     <section className="py-6 md:py-10">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12">
         {needsCarousel ? (
           <div className="relative">
             

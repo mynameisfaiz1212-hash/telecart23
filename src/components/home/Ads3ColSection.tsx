@@ -53,7 +53,7 @@ export default function Ads3ColSection() {
 
   return (
     <section className="py-6 md:py-10">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12">
         {needsCarousel ? (
           <div className="relative">
             <button onClick={goNext} className="absolute -right-2 top-1/2 z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center text-foreground/80 md:flex">

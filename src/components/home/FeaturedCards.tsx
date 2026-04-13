@@ -66,7 +66,7 @@ export default function FeaturedCards() {
 
   return (
     <section className="py-10 md:py-14">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12">
         {needsCarousel ? (
           <div className="relative">
             <div className="overflow-hidden py-6">

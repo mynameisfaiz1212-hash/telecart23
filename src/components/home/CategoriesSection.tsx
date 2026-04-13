@@ -53,7 +53,7 @@ export default function CategoriesSection() {
   return (
     <section id="categories" className="py-12 md:py-16">
       
-      <div className="mx-auto max-w-[1580px] px-6">
+      <div className="mx-auto max-w-[1580px] px-6 md:px-8 lg:px-12">
         
         {/* ✅ Responsive Heading */}
         <h2 className="mb-8 text-xl font-semibold md:text-4xl">
